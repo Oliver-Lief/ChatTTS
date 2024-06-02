@@ -138,7 +138,10 @@ def main():
     with gr.Blocks() as demo:
         gr.Markdown("# ChatTTS Webui")
         gr.Markdown(
-            "ChatTTS Model: [2noise/ChatTTS](https://github.com/2noise/ChatTTS)"
+            "ChatTTS Model原作者: [2noise/ChatTTS](https://github.com/2noise/ChatTTS)"
+        )
+        gr.Markdown(
+            "我的github:[Oliver-Lief/ChatTTS](https://github.com/Oliver-Lief/ChatTTS)"
         )
 
         default_text = "四川美食确实以辣闻名，但也有不辣的选择。比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。"
